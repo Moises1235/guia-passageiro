@@ -80,4 +80,5 @@ footer div{
 footer img{
     width: 13%;
     padding: 5%;
+    cursor: pointer;
 }
