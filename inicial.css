@@ -82,3 +82,51 @@ footer img{
     padding: 5%;
     cursor: pointer;
 }
+.invisible{
+    background-color: rgb(112, 163, 245);
+}
+.search-container,  .search-icon{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  input#search-bar{
+    color: black;
+    background-color: rgb(112, 163, 245);;
+    border-radius: 15px;
+    margin: 0 auto;
+    width: 75%;
+    height: 50px;
+    padding: 0 20px;
+    font-size: 1rem;
+    border: 1px solid #D0CFCE;
+    outline: none;
+    &:focus{
+      border: 1px solid #000000;
+      transition: 0.35s ease;
+      color: #000000;
+      &::-webkit-input-placeholder{
+        transition: opacity 0.45s ease; 
+          opacity: 0;
+       }
+      &::-moz-placeholder {
+        transition: opacity 0.45s ease; 
+          opacity: 0;
+       }
+      &:-ms-placeholder {
+       transition: opacity 0.45s ease; 
+         opacity: 0;
+       }    
+     }
+   }
+  
+  .search-icon{
+    width: 30%;
+    top: 15%;
+  }
+  ::placeholder{
+    color: #3b3b3b;
+  }
+  
+  
